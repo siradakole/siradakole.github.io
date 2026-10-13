@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samuel Adakole | Full-Stack Software Engineer (C#, .NET, Android)</title>
+<meta name="description" content="Samuel Adakole is a full-stack software engineer in Lagos, Nigeria with 7+ years of experience in C# (.NET, Blazor), Java and Android. Open to remote roles.">
+<link rel="canonical" href="https://siradakole.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Samuel Adakole | Full-Stack Software Engineer">
+<meta property="og:description" content="C# (.NET, Blazor), Java and Android. 7+ years across banking, healthcare, messaging and media. Open to remote roles.">
+<meta property="og:url" content="https://siradakole.github.io/">
+<meta property="og:image" content="https://siradakole.github.io/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230A7B4F%27/%3E%3Ctext x=%2732%27 y=%2745%27 font-family=%27Arial%27 font-weight=%27700%27 font-size=%2734%27 text-anchor=%27middle%27 fill=%27white%27%3ESA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Samuel Adakole","jobTitle":"Full-Stack Software Engineer","url":"https://siradakole.github.io/","sameAs":["https://www.linkedin.com/in/siradakole/","https://github.com/siradakole"],"address":{"@type":"PostalAddress","addressLocality":"Lagos","addressCountry":"NG"},"knowsAbout":["C#",".NET","ASP.NET Core","Blazor","Java","Android","SQL Server","RabbitMQ"]}
+</script>
+<style>
+:root{
+  --paper:#F2F5F2; --ink:#16231D; --muted:#51615A; --line:#CBD6CF;
+  --green:#0A7B4F; --green-deep:#0B3D2C; --amber:#E7A53A;
+  --edu:#A9BBB0; --r1:#7DB79A; --r2:#3F9A74; --r3:#0A7B4F; --r4:#0B3D2C;
+  --display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.65 var(--body);-webkit-font-smoothing:antialiased}
+a{color:var(--green);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--green-deep)}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:2px}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:.6rem 1rem;z-index:10}
+.skip:focus{left:0}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.25rem 0}
+header.top .mark{font:700 1.15rem/1 var(--display);font-variation-settings:"wdth" 85;text-decoration:none;color:var(--ink)}
+header.top nav{display:flex;gap:1.5rem;font-size:.95rem}
+header.top nav a{color:var(--ink);text-decoration:none}
+header.top nav a:hover{text-decoration:underline}
+h1,h2,h3{font-family:var(--display);margin:0;line-height:1.02;letter-spacing:-.01em}
+h1{font-size:clamp(3.4rem,9.5vw,7.6rem);font-weight:800;font-variation-settings:"wdth" 78;letter-spacing:-.025em}
+h2{font-size:clamp(1.9rem,3.6vw,2.7rem);font-weight:700;font-variation-settings:"wdth" 88}
+h3{font-size:1.35rem;font-weight:700;font-variation-settings:"wdth" 92;line-height:1.2}
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:3rem 4rem;align-items:end;padding:3rem 0 4.5rem}
+.hero .lede{font:500 clamp(1.3rem,2.4vw,1.75rem)/1.35 var(--display);font-variation-settings:"wdth" 92;max-width:24ch;margin:1.5rem 0 1rem}
+.hero p.sub{max-width:46ch;color:var(--muted);margin:0 0 1.75rem}
+.status{display:inline-flex;align-items:center;gap:.6rem;font-weight:500;font-size:.95rem;margin:0 0 1.25rem}
+.status i{width:.6rem;height:.6rem;border-radius:50%;background:var(--amber);box-shadow:0 0 0 4px rgba(231,165,58,.25)}
+.cta{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.8rem 1.25rem;border-radius:4px;font-weight:600;text-decoration:none;border:2px solid var(--green)}
+.btn.primary{background:var(--green);color:#fff}
+.btn.primary:hover{background:var(--green-deep);border-color:var(--green-deep);color:#fff}
+.btn.ghost{color:var(--green)}
+.btn.ghost:hover{background:var(--green);color:#fff}
+/* timeline */
+.tl h2{font-size:1.25rem;font-weight:600;font-variation-settings:"wdth" 100;margin-bottom:.25rem}
+.tl .note{margin:0 0 1.25rem;color:var(--muted);font-size:.95rem}
+.axis{position:relative;height:1.4rem}
+.axis span{position:absolute;top:0;font-size:.78rem;color:var(--muted);transform:translateX(-50%)}
+.axis span:first-child{transform:none}
+.rows{position:relative;border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:1fr;gap:.3rem;padding:.7rem 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink)}
+.row .who{font-size:.92rem;line-height:1.3}
+.row .who b{font-weight:600}
+.row .who small{color:var(--muted);font-size:.85rem}
+.track{position:relative;height:14px;display:block}
+.bar{position:absolute;top:0;height:100%;left:var(--s);width:var(--w);border-radius:2px;transform-origin:left center;animation:grow .9s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--d,0s)}
+.bar.edu{background:var(--edu)}
+.bar.r1{background:var(--r1)}
+.bar.r2{background:var(--r2)}
+.bar.r3{background:var(--r3)}
+.bar.r4{background:var(--r4)}
+.bar.now::after{content:"";position:absolute;right:-3px;top:-3px;bottom:-3px;width:6px;border-radius:3px;background:var(--amber)}
+.row:hover .who b{text-decoration:underline}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+/* sections */
+section.band{padding:4.5rem 0;border-top:1px solid var(--line)}
+.sec-head{display:grid;grid-template-columns:minmax(0,240px) minmax(0,1fr);gap:1rem 4rem}
+.sec-head.spaced{margin-bottom:2.5rem}
+.work{display:grid;gap:3rem}
+.proj{display:grid;grid-template-columns:minmax(0,240px) minmax(0,1fr);gap:1rem 4rem}
+.proj .meta{color:var(--muted);font-size:.95rem}
+.proj p{margin:.6rem 0 0;max-width:62ch}
+.proj ul{margin:.8rem 0 0;padding-left:1.1rem;max-width:62ch}
+.proj li{margin:.25rem 0}
+.proj p.links{margin-top:1rem;font-weight:600}
+.job{display:grid;grid-template-columns:minmax(0,240px) minmax(0,1fr);gap:.5rem 4rem;padding:2rem 0;border-top:1px solid var(--line)}
+.job.first{border-top:0;padding-top:0}
+.job .when{color:var(--muted);font-size:.95rem}
+.job ul{margin:.8rem 0 0;padding-left:1.1rem;max-width:64ch}
+.job li{margin:.3rem 0}
+.job .org{font-weight:500;margin-top:.15rem}
+.skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.75rem 3rem}
+.skills h3{font-size:1.05rem;margin-bottom:.35rem}
+.skills p{margin:0;max-width:44ch}
+.edu p{margin:.5rem 0 0;max-width:60ch}
+.contact .big{font:700 clamp(1.8rem,4vw,3rem)/1.1 var(--display);font-variation-settings:"wdth" 85;margin:0}
+.contact ul{list-style:none;margin:1.5rem 0 0;padding:0;display:grid;gap:.5rem}
+footer{padding:2rem 0 3rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+@media (max-width:860px){
+  .hero{grid-template-columns:1fr;padding-bottom:3rem}
+  .sec-head,.proj,.job{grid-template-columns:1fr}
+  .skills{grid-template-columns:1fr}
+  header.top nav{display:none}
+}
+@media (prefers-reduced-motion:reduce){.bar{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+  <header class="top">
+    <a class="mark" href="#top">Samuel Adakole</a>
+    <nav aria-label="Sections">
+      <a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+</div>
+
+<main id="main">
+<div class="wrap" id="top">
+  <div class="hero">
+    <div>
+      <p class="status"><i aria-hidden="true"></i>Open to remote roles, full-time or contract</p>
+      <h1>Samuel Adakole</h1>
+      <p class="lede">I build the backend services, web apps and Android apps that businesses run on.</p>
+      <p class="sub">Full-stack software engineer in Lagos, Nigeria. C# (.NET, Blazor), Java and Android, with 7+ years across banking, healthcare, messaging and media.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://www.linkedin.com/in/siradakole/">View my LinkedIn profile</a>
+        <a class="btn ghost" href="https://github.com/siradakole">See my code on GitHub</a>
+      </div>
+    </div>
+
+    <section class="tl" aria-labelledby="tl-h">
+      <h2 id="tl-h">Where I have worked since 2013</h2>
+      <p class="note">Roles overlap. Select a row to read what I did.</p>
+      <div class="axis" aria-hidden="true">
+        <span style="left:0">2013</span>
+        <span style="left:35.71%">2018</span>
+        <span style="left:64.29%">2022</span>
+        <span style="left:92.86%">2026</span>
+      </div>
+      <div class="rows">
+        <a class="row" href="#job-emmanuel">
+          <span class="who"><b>Emmanuel.Tv</b> <small>Software Engineer, Feb 2024 to now</small></span>
+          <span class="track" aria-hidden="true"><span class="bar r3 now" style="--s:79.17%;--w:19.3%;--d:.55s"></span></span>
+        </a>
+        <a class="row" href="#job-notifygates">
+          <span class="who"><b>NotifyGates</b> <small>Backend Developer (Contributor), Jan 2025 to Sep 2026</small></span>
+          <span class="track" aria-hidden="true"><span class="bar r4" style="--s:85.71%;--w:11.9%;--d:.7s"></span></span>
+        </a>
+        <a class="row" href="#job-gosmart">
+          <span class="who"><b>Gosmart Technologies</b> <small>Software Engineer, Jan 2018 to Apr 2024</small></span>
+          <span class="track" aria-hidden="true"><span class="bar r2" style="--s:35.71%;--w:44.64%;--d:.25s"></span></span>
+        </a>
+        <a class="row" href="#job-imp">
+          <span class="who"><b>Intelligent Mechatronics Plus</b> <small>Software Development Engineer, Apr 2017 to Apr 2024</small></span>
+          <span class="track" aria-hidden="true"><span class="bar r1" style="--s:30.36%;--w:50%;--d:.1s"></span></span>
+        </a>
+        <a class="row" href="#education">
+          <span class="who"><b>Federal University of Technology Minna</b> <small>BTech, 2013 to 2018</small></span>
+          <span class="track" aria-hidden="true"><span class="bar edu" style="--s:0%;--w:35.71%"></span></span>
+        </a>
+      </div>
+    </section>
+  </div>
+</div>
+
+<section class="band" id="work" aria-labelledby="work-h">
+  <div class="wrap">
+    <div class="sec-head spaced"><h2 id="work-h">Selected work</h2></div>
+    <div class="work">
+      <article class="proj">
+        <div class="meta">Android, Java<br>2018</div>
+        <div>
+          <h3>Seven Android apps</h3>
+          <p>Mobile banking that confirms transactions with a fingerprint, a clinic app that works offline, a parental monitoring app, and a SIM-switching dialer with a tracker for the MOES project.</p>
+          <ul>
+            <li>SmartPrint: fund transfer, bill payment and airtime recharge, confirmed by fingerprint</li>
+            <li>ClinicCare and HealthView: patient records stored offline, outpatient incident response</li>
+            <li>ChildGuide: calls, SMS, browser searches and location for parents</li>
+            <li>MoesDailer, MoesTracker and a Bluetooth walking-cane app</li>
+          </ul>
+          <p class="links"><a href="https://github.com/siradakole/android-apps-portfolio">Read the project overview</a></p>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="meta">C#, ASP.NET Core 8<br>Jan 2025 to Sep 2026</div>
+        <div>
+          <h3>NotifyGates, a bulk SMS and email platform</h3>
+          <p>I contributed to the backend of a live product that lets people send SMS and email campaigns, track delivery, and fund a wallet through PayPal or Paystack.</p>
+          <ul>
+            <li>ASP.NET Core 8 Web API with JWT authentication, sending, billing and admin tools</li>
+            <li>Webhooks for delivery tracking and payment confirmation, plus Hangfire background jobs</li>
+            <li>SQL Server with Entity Framework Core, deployable on IIS, Nginx or Docker</li>
+          </ul>
+          <p class="links"><a href="https://www.notifygates.com/">Visit notifygates.com</a></p>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="meta">React, Node.js, SQLite<br>Private research project</div>
+        <div>
+          <h3>A study platform for misinformation research</h3>
+          <p>A Facebook-style feed that researchers use to study how people respond to misinformation. Participants see one of three experiment conditions, give consent, and every action is logged.</p>
+          <ul>
+            <li>Admin dashboard to manage posts, conditions and participants</li>
+            <li>Reports and CSV exports per participant and per post</li>
+            <li>AI-generated comments through the OpenAI API, and a companion VR study in Unity and Firebase</li>
+          </ul>
+          <p class="links">The source is private to protect participant data.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="experience" aria-labelledby="exp-h">
+  <div class="wrap">
+    <div class="sec-head spaced"><h2 id="exp-h">Experience</h2></div>
+    <article class="job first" id="job-emmanuel">
+      <div class="when">Feb 2024 to now<br>Lagos, Nigeria</div>
+      <div>
+        <h3>Software Engineer</h3><div class="org">Emmanuel.Tv</div>
+        <ul>
+          <li>Develop and maintain C# and .NET applications across the PartnerSoft, ConsumerServices and EmmanuelTvPortal projects</li>
+          <li>Build REST APIs and background-job services with ASP.NET Core, Hangfire and RabbitMQ, deployed on Azure</li>
+          <li>Deliver Blazor web applications and mobile apps in Java, backed by SQL Server and MySQL</li>
+          <li>Handle database administration, testing and technical support for client needs</li>
+          <li>Gather and analyze business requirements and turn them into working features</li>
+        </ul>
+      </div>
+    </article>
+    <article class="job" id="job-notifygates">
+      <div class="when">Jan 2025 to Sep 2026</div>
+      <div>
+        <h3>Backend Developer (Contributor)</h3><div class="org">NotifyGates</div>
+        <ul>
+          <li>Contributed to an ASP.NET Core 8 Web API: JWT authentication, SMS and email sending, wallet billing with PayPal and Paystack, and admin tools</li>
+          <li>Worked on webhooks for delivery tracking and payment confirmation, and Hangfire background jobs</li>
+          <li>Used SQL Server with Entity Framework Core, with deployment on IIS, Nginx or Docker</li>
+        </ul>
+      </div>
+    </article>
+    <article class="job" id="job-gosmart">
+      <div class="when">Jan 2018 to Apr 2024<br>Jos, Nigeria</div>
+      <div>
+        <h3>Software Engineer</h3><div class="org">Gosmart Technologies</div>
+        <ul>
+          <li>Designed and developed Android and backend solutions for banking, healthcare and child-safety products</li>
+          <li>Built a mobile banking app with fingerprint-confirmed transfers, bill payment and airtime recharge</li>
+          <li>Delivered clinic and outpatient apps with offline data storage and patient-record sync</li>
+          <li>Developed a parental-monitoring app covering call, SMS, browsing and location activity</li>
+          <li>Gathered business requirements and worked in C# and Java across the full development cycle</li>
+        </ul>
+      </div>
+    </article>
+    <article class="job" id="job-imp">
+      <div class="when">Apr 2017 to Apr 2024</div>
+      <div>
+        <h3>Software Development Engineer</h3><div class="org">Intelligent Mechatronics Plus</div>
+        <ul>
+          <li>Developed Android applications and tracking solutions for mobile network and hardware-connected products</li>
+          <li>Built a dialer app for the Multiple Operator Enabled SIM (MOES) project, enabling seamless switching between SIMs and call control</li>
+          <li>Developed an asset tracker with a tracking server to extend network coverage and reduce tracking loss</li>
+          <li>Created a Bluetooth app that connects to a walking-cane device to place calls and control its light</li>
+          <li>Worked in Java and C# from requirements through testing and release</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="band" id="skills" aria-labelledby="skills-h">
+  <div class="wrap">
+    <div class="sec-head spaced"><h2 id="skills-h">Skills</h2></div>
+    <div class="skills">
+      <div><h3>Backend and APIs</h3><p>C#, ASP.NET Core, REST APIs, Entity Framework Core, JWT, Webhooks, Hangfire, RabbitMQ, Node.js, Express</p></div>
+      <div><h3>Web</h3><p>Blazor, React, JavaScript</p></div>
+      <div><h3>Mobile</h3><p>Android, Java, Kotlin</p></div>
+      <div><h3>Data</h3><p>SQL Server, MySQL, SQLite, database administration</p></div>
+      <div><h3>Delivery and payments</h3><p>Azure, Docker, Nginx, IIS, Git and GitHub, PayPal, Paystack</p></div>
+      <div><h3>Also used</h3><p>Unity, Firebase, the OpenAI API</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band edu" id="education" aria-labelledby="edu-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="edu-h">Education</h2>
+      <div><h3>BTech, Cyber/Computer Forensics and Counterterrorism</h3>
+      <p>Federal University of Technology Minna, 2013 to 2018. Coursework covered digital forensics, cyber law, penetration testing and vulnerability assessment, which shapes how I think about security and reliability.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band contact" id="contact" aria-labelledby="contact-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="contact-h">Contact</h2>
+      <div>
+        <p class="big">Hiring for a remote engineering role? Message me on LinkedIn.</p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/siradakole/">linkedin.com/in/siradakole</a></li>
+          <li><a href="https://github.com/siradakole">github.com/siradakole</a></li>
+          <li><a href="https://github.com/gosmart24">github.com/gosmart24</a>, where my Android apps live</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">Samuel Adakole, Lagos, Nigeria (UTC+1). Open to remote roles.</div></footer>
+</body>
+</html>
